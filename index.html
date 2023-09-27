@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awsome -->
@@ -12,11 +12,14 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Vue JS -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.4/dist/vue.js"></script>
-    <title>Document</title>
+    <title>Hello Vue</title>
 </head>
 <body>
+    <div id="root" class="text-center mt-5">
+        <h1> Hello io sono {{firstName}} {{lastName}},ho {{age}} anni, e vengo da {{birthPlace}}.</h1>
+        <img :src="birthPlaceGif" alt="">
+    </div>
     <!-- JS -->
 <script src="js/script.js"></script>
 </body>
-  
 </html>
